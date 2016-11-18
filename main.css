@@ -1,0 +1,65 @@
+
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+  background-image: url("Business_Incubation_Startup.jpg");
+  min-height:  50%;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header > * {
+  color: black;
+}
+
+#logo {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+#Entrar {
+
+  text-align: left;
+}
+
+#Regístrate {
+  text-align: right;
+}
+
+a:link, a:visited {
+
+    background-color: #f57a00;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #ffc108;
+}
+
+#Image {
+  left:10px;
+  width:200px;
+}
+
+#Beneficios {
+  position: absolute;
+  margin-left: 100px;
+
+}
